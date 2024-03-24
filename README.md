@@ -1,8 +1,8 @@
-# Essentiquw
+# Essentique
 
 This project created with javascript
 
-![Essentiquw](https://github.com/HOSSJBR/Essenitque/blob/main/frontend/src/images/Essentique.png).
+![Essentique](https://github.com/HOSSJBR/Essenitque/blob/main/frontend/src/images/Essentique.png).
 
 [Live link to website](https://essentique.netlify.app/)
 
