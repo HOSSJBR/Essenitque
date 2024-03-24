@@ -1,0 +1,213 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  align-items: center;
+}
+.nav_main {
+  position: relative;
+  z-index: 5;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.493);
+}
+.nav_links a {
+  color: rgb(255, 255, 255);
+  /* font-family: "Space Mono", sans-serif; */
+  font-family: "Fraunces", serif;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 10px 10px;
+  transition: 0.5s;
+  font-weight: 200;
+  position: relative;
+}
+.nav_links {
+  display: flex;
+  gap: 20px;
+}
+.nav_links a::before {
+  content: "";
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  background-color: white;
+  transition: width 0.5s, left 0.5s;
+}
+.navbar a:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.cart_logo {
+  color: white;
+  font-size: 33px !important;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.login_logo {
+  cursor: pointer;
+  color: white;
+  font-size: 35px !important;
+}
+.menu_logo {
+  display: none !important;
+  font-size: 35px !important;
+  margin-left: 30px;
+  color: white !important;
+  cursor: pointer;
+}
+.looka-1j8o68f {
+  position: relative;
+  top: 10px;
+}
+/* ************************************** */
+/* cart section  */
+/* ***************************************** */
+.add_cart_section {
+  position: absolute;
+  transition: 0.5s;
+  z-index: 5;
+  top: 20px;
+  right: -100%;
+  height: 95vh;
+  overflow-y: scroll;
+  background-color: rgba(255, 255, 255, 0.308);
+  border: 1px solid black;
+  transform: 0.5s;
+  width: 500px;
+}
+.wrapper {
+  transition: 0.5s;
+  display: none;
+  position: fixed;
+  backdrop-filter: blur(10px);
+  z-index: 5;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.791);
+}
+.show_cart {
+  opacity: 1 !important;
+  right: 0% !important;
+}
+.showwrapper {
+  display: block !important;
+}
+
+.cross_cart_section {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.cartheading {
+  margin-left: 20px;
+}
+.empty-cart-message {
+  padding: 20px;
+}
+.empty-cart-message .main_btn {
+  border: 1px solid black;
+  margin-top: 30px;
+}
+.main_grid_cart_Section {
+  display: grid;
+}
+.cart_column {
+  border-top: 1px solid rgba(0, 0, 0, 0.548);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.548);
+  display: flex;
+  gap: 10px;
+  background-color: rgb(233, 235, 232);
+  padding: 20px;
+}
+.cart_column .small_heading {
+  font-weight: 300;
+  max-width: 150px;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cart_heading {
+  margin-left: 20px;
+}
+.cart_column input {
+  border: 1px solid rgba(0, 0, 0, 0.511);
+  max-width: 70px;
+  padding: 5px 10px;
+  outline: none;
+  font-size: 18px;
+}
+.cart_column img {
+  max-width: 100px;
+}
+.cart_items_main {
+  display: flex;
+  flex-direction: column;
+}
+.remove_Cart_btn {
+  display: inline-block;
+  margin-left: 20px;
+  text-decoration: underline;
+  font-size: 18px;
+  font-family: "Fraunces", serif;
+
+  cursor: pointer;
+}
+.cart_item_price {
+  margin-top: 60px;
+  font-size: 18px;
+  margin-left: 20px;
+  font-family: "Fraunces", serif;
+}
+.cart_total_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart_total {
+  justify-self: flex-end;
+  padding: 20px;
+}
+.cart_total .main_btn {
+  width: 100%;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+.cart_total .main_btn:hover {
+  color: black;
+  background-color: white;
+}
+.subtotal {
+  font-size: 16px;
+  font-family: "Fraunces", serif;
+}
+.mall_main_div {
+  display: inline-block;
+  position: relative;
+}
+.itemslength {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  font-size: 16px;
+  color: white;
+
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding-top: 3px;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 50%;
+}

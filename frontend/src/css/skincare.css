@@ -1,0 +1,112 @@
+.section_1_skincare {
+  background-image: url("../images/skincarebackground.jpg");
+  width: 100%;
+  padding: 180px 0px;
+  background-size: cover;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.205);
+  background-blend-mode: color-burn;
+  background-attachment: fixed;
+}
+.section_1_skincare .heading {
+  text-align: center;
+}
+.steps_heading {
+  font-family: Raleway;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.steps {
+  font-size: 18px;
+  font-family: Raleway;
+  font-weight: bold;
+}
+.skincare_step_1_flex {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  /* gap: 300px; */
+  /* align-items: center; */
+  gap: 150px;
+}
+.video_skincare {
+  text-align: end;
+}
+.skincare_step_1_flex video {
+  /* align-self: flex-end; */
+  width: 80%;
+  height: 600px;
+  object-fit: cover;
+  outline-offset: 3px;
+  /* border-radius: 10%; */
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.509);
+  /* outline: 2px solid rgba(0, 0, 0, 0.54); */
+}
+.steps_para {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: Raleway;
+  max-width: 350px;
+  margin-bottom: 50px;
+  line-height: 1.3;
+}
+.step_img_1 {
+  max-width: 600px;
+  height: 400px;
+  /* max-width: 300px; */
+}
+.flex_steps_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 150px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.476);
+}
+.flex_steps_2 img {
+  width: 100%;
+  /* height: 400px; */
+}
+/* .step_3_skincare {
+  margin-top: 60px;
+}
+.step_3_skincare img {
+  height: 400px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+} */
+/* step 3 css  *************************/
+.step_3_skincare {
+  padding: 100px 0px;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 0.5fr 1fr;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.step_3_skincare_content .heading {
+  color: black;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.step_3_skincare_content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.step_3_skincare_imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 450px 450px;
+  gap: 20px;
+}
+.step_3_skincare_imgs img {
+  /* width: 100%; */
+
+  width: 100%;
+  height: 100%;
+}
+.img_4_gird_skincare {
+  width: 100%;
+}

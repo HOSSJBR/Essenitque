@@ -1,0 +1,128 @@
+.section-1-about {
+  background-image: url("../images/contact_header.webp");
+  background-position: top;
+  background-size: 100%;
+  width: 100%;
+  background-size: cover;
+  padding: 150px 0px;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.559);
+  background-blend-mode: color-burn;
+}
+.main_heading_contact {
+  text-align: center;
+}
+.section-2-contact .heading {
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.main-section-3-contact {
+  padding: 100px 0px 0px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 30px;
+}
+
+/* start animfaiton form  */
+
+.form_cart {
+  min-width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 10px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 700px) {
+  .form_cart {
+    min-width: 200px !important;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 10px;
+    padding-bottom: 30px;
+  }
+}
+
+.form_cart {
+  min-width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 10px;
+  padding-bottom: 30px;
+}
+.form-image {
+  width: 100%;
+}
+.card-header {
+  background-color: #333;
+  padding: 16px;
+  text-align: center;
+}
+
+.card-header .text-header {
+  margin: 0;
+  font-size: 25px;
+  font-family: Raleway;
+  color: rgb(255, 255, 255);
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 18px;
+  color: #333;
+  font-family: Raleway;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="text"],
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 12px 35px;
+  margin-top: 13px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ccc;
+  color: #333;
+}
+
+.section-map iframe {
+  margin: 50px 0px 0px;
+  width: 100%;
+}

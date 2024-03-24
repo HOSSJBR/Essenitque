@@ -1,0 +1,115 @@
+/* bestseller.css */
+.section-1-best {
+  background-image: url("../images/contact_header.webp");
+  background-position: top;
+  background-size: 100%;
+  width: 100%;
+  background-size: cover;
+  padding: 150px 0px;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.559);
+  background-blend-mode: color-burn;
+}
+.new_page_section_1_bestseller {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.new_page_heading_bestseller {
+  margin-bottom: 50px;
+}
+.new_page_section_1_bestseller .heading_bestseller {
+  color: black;
+  letter-spacing: 5px;
+}
+.main_grid_new_page_bestseller {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.main_grid_new_page_bestseller img {
+  width: 100%;
+  transition: 0.5s;
+  margin-bottom: 30px;
+  /* background-color: rgb(241, 241, 241); */
+  cursor: text;
+}
+
+.columns_new_page_bestseller {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  position: relative;
+
+  padding: 20px 20px 50px;
+}
+.price_new_item_bestseller {
+  /* font-family: "Fraunces", serif; */
+  font-family: "Courier New", Courier, monospace;
+  font-size: 17px;
+  padding-bottom: 5px;
+  display: block;
+  color: rgba(0, 0, 0, 0.737);
+}
+
+.columns_new_page_bestseller p {
+  color: rgba(0, 0, 0, 0.737);
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.new_item_calc_bestseller {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.new_item_calc_bestseller span {
+  font-size: 18px;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+.add_cart_btn_bestseller {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.692);
+  color: white;
+  text-transform: capitalize;
+}
+.add_cart_btn_bestseller:hover {
+  background-color: rgba(0, 0, 0, 0.555);
+}
+
+.new_page_target_bestseller,
+.new_page_suited_bestseller,
+.new_page_description_bestseller {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.new_items_content_bestseller {
+  position: relative;
+}
+.img_hover_content_bestseller {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+  padding: 20px;
+  background-color: white;
+  transition: 0.5s;
+}
+.new_item_img_bestseller {
+  position: relative;
+}
+.new_item_img_bestseller:hover .img_hover_content_bestseller {
+  opacity: 1;
+}
+.new_item_img_bestseller:hover img {
+  transform: scale(0.6);
+}
